@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6f309d459b84d247a512920510ff44e, type: 3}
+  m_Name: BuilderSettingSO
+  m_EditorClassIdentifier: 
+  cameraMove:
+    walkSpeed: 6
+    runSpeed: 12
+    colliderRadius: 0.5
+    collideMask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+  cameraRotate:
+    camRotateSpeedX: 3
+    camRotateSpeedY: 3
+    camRotateInvertX: 0
+    camRotateInvertY: 1
+    camRotateMin: -50
+    camRotateMax: 50
+  buildConfig:
+    buildMask:
+      serializedVersion: 2
+      m_Bits: 128
+    rotateSpeed: 100
+    rotateInvert: 1
